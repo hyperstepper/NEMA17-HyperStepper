@@ -1,0 +1,18 @@
+--cpu Cortex-M0
+"item\startup_stm32f030x8.o"
+"item\stm32f0xx_it.o"
+"item\main.o"
+"item\system_stm32f0xx.o"
+"item\stm32f0xx_ll_tim.o"
+"item\stm32f0xx_ll_pwr.o"
+"item\stm32f0xx_ll_spi.o"
+"item\stm32f0xx_ll_dma.o"
+"item\stm32f0xx_ll_rcc.o"
+"item\stm32f0xx_ll_usart.o"
+"item\stm32f0xx_ll_exti.o"
+"item\stm32f0xx_ll_gpio.o"
+"item\stm32f0xx_ll_utils.o"
+--library_type=microlib --strict --scatter "ITEM\ITEM.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ITEM.map" -o ITEM\ITEM.axf

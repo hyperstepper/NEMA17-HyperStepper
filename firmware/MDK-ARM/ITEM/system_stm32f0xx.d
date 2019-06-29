@@ -1,0 +1,9 @@
+item\system_stm32f0xx.o: ..//Src/system_stm32f0xx.c
+item\system_stm32f0xx.o: ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h
+item\system_stm32f0xx.o: ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h
+item\system_stm32f0xx.o: ../Drivers/CMSIS/Include/core_cm0.h
+item\system_stm32f0xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+item\system_stm32f0xx.o: ../Drivers/CMSIS/Include/core_cmInstr.h
+item\system_stm32f0xx.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+item\system_stm32f0xx.o: ../Drivers/CMSIS/Include/core_cmFunc.h
+item\system_stm32f0xx.o: ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h
